@@ -19,4 +19,4 @@ cfg = ["python-decouple"]
 
 [tool.poetry.scripts]
 hello = "example.hi:main"
-hello-decouple = { reference = "example.config:main", extras = ["cfg"], type = "console" }
+hello-decouple = { reference = "example.hi_decouple:main", extras = ["cfg"], type = "console" }
